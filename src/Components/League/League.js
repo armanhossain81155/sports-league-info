@@ -41,11 +41,15 @@ const League = (props) => {
     <Card.Title>{strLeague}</Card.Title>
     </div>
     <Card.Text>
-      Sports Type : <small>{strSport}</small>
+     <small>
+     Sports Type : {strSport}
+     <br />
+      Gender : {images.strGender}
+      <br />
+      Id : {images.idLeague}
+     </small>
     </Card.Text>
-    <Card.Text>
-      League Id : {idLeague}
-    </Card.Text>
+    
     <Link to={idLeague}><Button variant="warning">Explore<FontAwesomeIcon icon={faArrowAltCircleRight} /></Button></Link>
   </Card.Body>
 </Card>

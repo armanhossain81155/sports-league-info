@@ -11,14 +11,15 @@
    
 }
 .name-space{
-    height: 50px;
+    height: 30px;
+    margin-bottom: 15px;
     
     
 }
 
 .main-img{
-    width:150px;
-    margin-left: 60px;
+    width:100px;
+    margin-left: 70px;
     
 }
 @media only screen and (max-width: 768px) {

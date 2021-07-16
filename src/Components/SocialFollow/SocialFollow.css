@@ -1,0 +1,33 @@
+.font-color{
+    color: rgb(29, 27, 27);
+}
+
+/* SOCIAL STUFF */
+.social-container {
+    background: rgb(255, 255, 255);
+    padding: 25px 50px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  
+  

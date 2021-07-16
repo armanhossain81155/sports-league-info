@@ -1,8 +1,8 @@
 .main-home{
-    min-height: 400vh;
+    min-height: 3500vh;
     font-size: calc(10px + 2vmin);
-    color: rgb(36, 34, 34);
-    background-color: #282c34;
+    color: rgb(0, 0, 0);
+    background-color: #9fd6cf;
 }
 .main-banner{
   width: 100%;
@@ -10,7 +10,7 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .main-home{
-      min-height: 1510vh;
+      min-height: 15830vh;
       font-size: calc(10px + 2vmin);
       color: rgb(36, 34, 34);
       background-color: #282c34;

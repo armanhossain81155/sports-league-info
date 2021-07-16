@@ -1,11 +1,10 @@
 import Home from './Components/Home/Home';
 import './App.css'
-import banner from './images/banner.jpg'
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import SingleClubInfo from './Components/SingleClubINfo/SingleClubInfo';
 import { createContext, useState } from 'react';
@@ -20,6 +19,7 @@ export const UserContext = createContext();
 function App() {
 
   const [content, setContent] = useState([]);
+  
   // console.log(content)
   
   return (
@@ -30,10 +30,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" >
-          <Home></Home>
+          <Home ></Home>
           </Route>
           <Route path="/:idLeague">
-            <SingleClubInfo></SingleClubInfo>
+            <SingleClubInfo ></SingleClubInfo>
           </Route>
          
         </Switch>
